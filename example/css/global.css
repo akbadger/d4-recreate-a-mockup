@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: lightpink;
+}
+
+.column: last-child {
+    margin-right: 0;
+}
+
+.column-8 {
+    flex: 8;
+}
+
+.column-3{
+    flex: 3;
+}
